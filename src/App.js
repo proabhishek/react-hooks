@@ -1,25 +1,46 @@
-import logo from './logo.svg';
-import './App.css';
+// import LearnProps from "./LearnProps/LearnProps";
+import LearnUseState2 from "./LearnUseState/LearnUseState2";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import LearnUseEffect2 from "./LearnUseEffect/LearnUseEffect2";
+
+const App = () => {
+    return (
+           
+        <div> 
+            <LearnUseState2 />
+            {/* <LearnUseEffect2 /> */}
+        </div>
+
+
+
+
+
+        //  <div>
+
+        //    /* <LearnProps 
+        //         name="John"
+        //         position="Software Engineer"
+        //         role="Front End Developer"
+        //    > 
+        //        <h1>I am child 1</h1>
+        //         <p>I am a child 2</p>
+        //    </LearnProps>
+        //    <LearnProps 
+        //         name="Jane"
+        //         position="Test Engineer"
+        //         role="Web app testing"
+        //    />
+        //    <LearnProps 
+        //         name="Joe"
+        //         position="Software Engineer"
+        //         role="Back End Developer"
+        //    >
+        //        <h1>I am child 1</h1>
+        //         <p>I am a child 2</p>
+        //         <h3>I am child 3</h3>
+        //     </LearnProps>
+        // </div> */}
+    );
 }
 
 export default App;
